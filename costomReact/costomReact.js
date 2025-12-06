@@ -1,3 +1,5 @@
+// Create rander function 
+
 const costomRender = (element , container) => {
     /*
     const domElement = document.createElement(element.type)
@@ -25,7 +27,7 @@ const costomRender = (element , container) => {
 }
 
 
-
+// create react element 
 const reactElement = {
     type: "a",
     props: {
@@ -36,8 +38,10 @@ const reactElement = {
 }
 // console.log(reactElement.type)
 
+// render react element 
 const mainContainer = document.querySelector('#root');
 
 costomRender(reactElement, mainContainer);
+
 
 
